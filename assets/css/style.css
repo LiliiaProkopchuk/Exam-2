@@ -139,15 +139,9 @@ h2::before {
   top: 0;
   left: 0;
 }
-.js-header.fixed {
-  top: -100%;
-  left: 0;
-  width: 100%;
+.js-header.dark-bg {
   background-color: rgba(100, 99, 99, 0.5);
   padding-top: 10px;
-}
-.js-header.is-show {
-  top: 0;
 }
 .js-header .container .menu {
   display: flex;
@@ -661,7 +655,7 @@ main .news .container .prev {
   position: absolute;
   top: 53%;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   main .news .container .next,
   main .news .container .prev {
     display: none;
@@ -717,14 +711,14 @@ main .gallery .container .photos {
     max-width: 586px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 740px) {
   main .gallery .container .photos {
     max-width: 420px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 410px) {
   main .gallery .container .photos {
-    max-width: 400px;
+    max-width: 360px;
     gap: 17px;
   }
 }

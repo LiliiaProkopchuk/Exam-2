@@ -25,18 +25,13 @@ $(document).ready(function () {
         toolbar: true
     });
     //       MENU
-    let header = $(".js-header"),
-        cloneHeader = header.clone();
-    cloneHeader.addClass("fixed");
-    header.before(cloneHeader);
+    let header = $(".js-header");
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 600) {
-            header.hide();
-            cloneHeader.addClass('is-show');
+            header.addClass('dark-bg');
         } else {
-            header.show();
-            cloneHeader.removeClass('is-show');
+            header.removeClass('dark-bg');
         }
     });
     $("a.nav_link").click(function () {

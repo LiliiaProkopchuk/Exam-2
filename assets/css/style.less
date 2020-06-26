@@ -141,15 +141,9 @@ h2{
     position: fixed;
     top: 0;
     left: 0;
-    &.fixed{
-        top:-100%;
-        left: 0;
-        width: 100%;
+    &.dark-bg{
         background-color: rgba(100, 99, 99, 0.5);
         padding-top: 10px;
-    }
-    &.is-show{
-        top:0;
     }
     .container{
         .menu{
@@ -583,7 +577,7 @@ main{
             .next, .prev{
                 position: absolute;
                 top:53%;
-                @media screen and (max-width:400px){
+                @media screen and (max-width:500px){
                     display: none;
                 }
             }
@@ -626,11 +620,11 @@ main{
                 @media screen and (max-width:800px){
                     max-width: 586px;
                 }
-                @media screen and (max-width:800px){
+                @media screen and (max-width:740px){
                     max-width: 420px;
                 }
-                @media screen and (max-width:500px){
-                    max-width: 400px;
+                @media screen and (max-width:410px){
+                    max-width: 360px;
                     gap: 17px;
                 }
                 .photo_1{
